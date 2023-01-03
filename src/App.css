@@ -1,38 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .App {
-  text-align: center;
+  min-height: 1000px;
+  background-image: url(./images/nebula.png);
+  /* background: linear-gradient(to right, #c31432, #240b36); */
+  color: #fff;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App canvas {
+  height: 700px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.canvas {
+  background-color: none;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+}
+
+h1,
+h2 {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  text-align: center;
+  user-select: none;
 }
 
-.App-link {
-  color: #61dafb;
+h1 {
+  height: 120px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h2 {
+  margin-top: -20px;
+  height: 50px;
+}
+
+.btn {
+  height: 45px;
+  line-height: 45px;
+  width: 100px;
+  background: rgb(255, 45, 73);
+  color: rgb(255, 227, 251);
+  font-weight: 800;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: .1s ease all;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  user-select: none;
+}
+
+.btn:hover {
+  box-shadow: 3px 0 10px rgb(85, 0, 0);
 }

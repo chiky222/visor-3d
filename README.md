@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+# Visor de Elementos 3D
+<br>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Cambia de elemento para verlos en detalle
+<br>
 
-## Available Scripts
+![Visor 3D](https://res.cloudinary.com/dyfvpilfz/image/upload/v1672783759/img_readme_visor3d_plhmlz.png)
 
-In the project directory, you can run:
+Este proyecto fue creado con **React Js**.
+Se trata de un _Visor Interactivo de Objetos 3D_.
 
-### `npm start`
+Link para ver el proyecto deployado
+_[Visor 3D](https://visor3d.netlify.app/)_
+<br>
+<br>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Librerías utilizadas
 
-### `npm test`
+| Librería | Utilización |
+| --- | --- |
+|[@react-three/fiber](https://www.npmjs.com/package/@react-three/fiber)| Is a React renderer for threejs. |
+|[@react-three/drei](https://www.npmjs.com/package/@react-three/drei)| A growing collection of useful helpers and fully functional, ready-made abstractions for @react-three/fiber. If you make a component that is generic enough to be useful to others, think about making it available here through a PR!|
+|[three.js](https://threejs.org/)| is a 3D library that tries to make it as easy as possible to get 3D content on a webpage.|
+<hr>
+<br>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Funcionalidades que tiene el proyecto
 
-### `npm run build`
+- Rotar e interactuar con los distintos Objetos 3D.
+- Pulsar el botón para cambiar el modelo 3D y pasar al siguiente.
+<br>
+<hr>
+<br>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Pasos para levantar el proyecto en local
+<br>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1.  **Clonar el repositorio**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+git clone https://github.com/chiky222/mi-tienda-web.git
+```
 
-### `npm run eject`
+2. **Instalar las dependencias**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```
+npm install
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. **Correr el proyecto en el navegador**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```
+npm start
+```
